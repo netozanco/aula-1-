@@ -1,1 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Ervas & Cura</title>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet">
+    <style>
+        body {
+            color: white;
+            background-color: #556B2F; /* verde musgo */
+            margin: 0px;
+            font-family: "Chakra Petch", sans-serif;
+            margin-bottom: 100px;
+        }
 
+        header {
+            border-bottom: solid 2px rgb(42, 122, 228);
+            padding: 20px;
+            font-size: 32px;
+            color: rgb(42, 122, 228);
+        }
+
+        .chamada {
+            background: rgb(184, 156, 213);
+            padding-bottom: 80px;
+            padding-top: 80px;
+            display: flex;
+            justify-content: center;
+            color: black;
+        }
+
+        .chamada-texto {
+            margin-right: 5%;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        .categoria-videos {
+            display: flex;
+            overflow-x: auto;
+            gap: 10px;
+        }
+
+        .categoria {
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-top: 50px;
+        }
+
+        .categoria-videos img {
+            opacity: 0.8;
+            height: 200px;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+
+        .categoria-videos img:hover {
+            opacity: 1.0;
+            border: 3px solid green;
+            transform: scale(1.05);
+        }
+
+        .categoria h2 {
+            color: rgb(42, 122, 228);
+        }
+
+        iframe {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border: none;
+        }
+
+        a {
+            color: #ADD8E6;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Ervas & Cura 🌱
+    </header>
+
+    <section class="chamada">
+        <div class="chamada-texto">
+            <h1>Descubra o poder das ervas medicinais</h1>
+            <p>As plantas têm sido usadas há milênios para tratar doenças, aliviar sintomas e promover bem-estar. Conheça os benefícios naturais que a natureza oferece.</p>
+        </div>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Herbs_in_a_basket.jpg/640px-Herbs_in_a_basket.jpg" alt="Cesta de ervas" height="300">
+    </section>
+
+    <section class="categoria">
+        <h2>Ervas que fazem bem ao corpo</h2>
+        <div class="categoria-videos">
+            <a href="https://www.verywellhealth.com/healing-herbs-5180997" target="_blank">
+                <img src="https://www.verywellhealth.com/thmb/8XJvWZgZkYwWvZKz0wKjz6gGvZg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/healing-herbs-5180997-hero-01-7c9b6b8f3f4b4f8e9f3b9e3e2e2e2e2e.jpg" alt="Ervas curativas">
+            </a>
+            <a href="https://www.herbalnailbar.com/blog/benefits-of-herbs-in-beauty" target="_blank">
+                <img src="https://www.herbalnailbar.com/wp-content/uploads/2021/06/herbs-benefits-beauty.jpg" alt="Ervas na beleza">
+            </a>
+            <a href="https://thehappygardeninglife.com/blogs/organic-gardening/herbs-and-their-amazing-health-benefits" target="_blank">
+                <img src="https://cdn.shopify.com/s/files/1/0552/4567/1234/articles/herbs-health-benefits.jpg" alt="Benefícios das ervas">
+            </a>
+            <a href="https://www.aarp.org/health/healthy-living/fresh-herb-health-benefits/" target="_blank">
+                <img src="https://www.aarp.org/content/dam/aarp/health/healthy-living/2020/06/1140-fresh-herbs-health-benefits.imgcache.rev.web.1140.655.jpg" alt="Ervas frescas">
+            </a>
+        </div>
+        <p>
+            🌿 <strong>Hortelã:</strong> Alivia problemas digestivos e dores de cabeça.<br>
+            🌼 <strong>Camomila:</strong> Calmante natural, ajuda no sono e na ansiedade.<br>
+            🌵 <strong>Babosa (Aloe Vera):</strong> Cicatrizante e hidratante para pele.<br>
+            💜 <strong>Lavanda:</strong> Reduz o estresse e melhora o humor.
+        </p>
+    </section>
+
+    <section class="categoria">
+        <h2>Vídeos recomendados</h2>
+        <p>🎥 Aprenda mais sobre o uso medicinal das ervas:</p>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/j0c_pmy3B60" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/4pcsyepgW5g" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/0MDYXjW_794" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Bh7HUetelMc" allowfullscreen></iframe>
+    </section>
+
+    <section class="categoria">
+        <h2>Fontes confiáveis</h2>
+        <ul>
+            <li><a href="https://practicalselfreliance.com/medicinal-plants/" target="_blank">100+ Medicinal Plants and Their Uses - Practical Self Reliance</a></li>
+            <li><a href="https://www.verywellhealth.com/healing-herbs-5180997" target="_blank">10 Healing Herbs with Medicinal Benefits - Verywell Health</a></li>
+            <li><a href="https://naturalfoodseries.com/30-herbs-uses/" target="_blank">30 Best Herbs With Their Benefits and Uses - Natural Food Series</a></li>
+        </ul>
+    </section>
+
+    <section class="categoria">
+        <h2>Como usar com segurança</h2>
+        <p>Antes de iniciar qualquer tratamento com ervas, consulte um profissional de saúde. Embora naturais, algumas plantas podem interagir com medicamentos ou causar reações adversas.</p>
+    </section>
+</body>
+</html>
